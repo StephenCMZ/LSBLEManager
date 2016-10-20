@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "LSBLEManager"
   s.version      = "1.0.1"
-  s.summary      = "A short description of LSBLEManager."
+  s.summary      = "easy away to use bluetooth."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -90,7 +90,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "LSBLEManager", "LSBLEManager/**/*.{h,m}"
+  s.source_files  = "LSBLEManager", "LSBLEManager/*.{h,m}"
   s.exclude_files = "LSBLEManager/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
