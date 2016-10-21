@@ -2,7 +2,7 @@
 一个简易的蓝牙管理器
 
 ##### 使用步骤：
-- 将`LSBluetoothManager.h`和`LSBluetoothManager.m`拖入项目中
+- pod 'LSBLEManager', '~> 1.0.0'
 - 导入`LSBluetoothManager.h`
 - 设置代理并获取蓝牙管理器
 ```
